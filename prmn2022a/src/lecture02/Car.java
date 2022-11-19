@@ -11,4 +11,9 @@ public class Car {
             System.out.println("燃料が不足しています");
         }
     }
+
+    void StartEngine(){
+        Engine engine =new Engine(400);
+        engine.Start();
+    }
 }
