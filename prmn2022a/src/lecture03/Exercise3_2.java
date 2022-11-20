@@ -8,8 +8,9 @@ public class Exercise3_2 {
         Scanner scanner=new Scanner(System.in);
         ArrayList<String> stringInput=new ArrayList<>();
         System.out.println("何行入力しますか？");
-        int number=scanner.nextInt();
-        for(int i=1;i<=number;i++){
+        String number=scanner.nextLine();
+        int Number=Integer.parseInt(number);
+        for(int i=1;i<=Number;i++){
             System.out.println(i+"行目:");
             String input=scanner.nextLine();
             stringInput.add(input);
